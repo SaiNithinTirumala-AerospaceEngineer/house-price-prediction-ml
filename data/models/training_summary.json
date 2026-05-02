@@ -1,0 +1,30 @@
+{
+  "Linear Regression": {
+    "cv_r2_mean": 0.9334,
+    "cv_r2_std": 0.0074,
+    "params": {}
+  },
+  "Ridge Regression": {
+    "cv_r2_mean": 0.9336,
+    "cv_r2_std": 0.0073,
+    "params": {
+      "alpha": "1.0"
+    }
+  },
+  "Lasso Regression": {
+    "cv_r2_mean": 0.9344,
+    "cv_r2_std": 0.0075,
+    "params": {
+      "alpha": "100.0"
+    }
+  },
+  "Random Forest": {
+    "cv_r2_mean": 0.8059,
+    "cv_r2_std": 0.0343,
+    "params": {
+      "max_depth": "None",
+      "min_samples_split": "2",
+      "n_estimators": "200"
+    }
+  }
+}
