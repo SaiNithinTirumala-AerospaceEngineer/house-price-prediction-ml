@@ -18,6 +18,13 @@ property valuations and quantifying each model's predictive accuracy.
 *Developed during the Bharat Intern Machine Learning Virtual Internship,
 10 August – 10 September 2023.*
 
+## Pipeline architecture
+
+![ML Pipeline](assets/ml_pipeline_architecture.png)
+
+*End-to-end pipeline: raw dataset → preprocessing → feature engineering
+→ four model training with GridSearchCV → evaluation → feature analysis
+→ prediction dashboard.*
 ---
 
 ## Prediction dashboard — hero result
